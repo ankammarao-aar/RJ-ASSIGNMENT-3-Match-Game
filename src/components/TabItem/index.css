@@ -1,0 +1,29 @@
+.tabs-list-item {
+  font-family: 'Roboto';
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.button {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.change-color {
+  background-color: transparent;
+  color: #fec653;
+  font-size: 20px;
+  margin-bottom: 8px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.line {
+  border: 1px solid #fec653;
+  margin-top: 0px;
+}

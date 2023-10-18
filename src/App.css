@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  padding: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.match-image {
+  height: 322px;
+}
+
+.tabs-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.images-container {
+  list-style-type: none;
+  width: 582px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.game-over-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  height: 100%;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 42px;
+  border-radius: 6px;
+}
+
+.trophy {
+  height: 222px;
+  margin-top: 30%;
+}
+
+.your-score {
+  color: #ffffff;
+  margin-top: 6px;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.play-button {
+  background-color: #cf60c8;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 0px;
+}
+
+.reset {
+  height: 14px;
+  margin-right: 6px;
+}
